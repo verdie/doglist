@@ -22,6 +22,6 @@ export default class DogsListContainer extends Component {
   }
 
   render() {
-    return <DogsList dogBreeds={this.state.dogBreeds} />
+    return <DogsList breeds={this.state.dogBreeds} />
   }
 }
